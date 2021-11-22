@@ -32,46 +32,66 @@ let tags = {
 const defaultMenu = {
   before: `
 ╔════════════════════
-║  ❉─❉```Ismail Kurama````❉─❉
+║  ❉─❉Ismail Kurama❉─❉
 ╠════════════════════
 ║╭──❉ *subscribe* ❉─────
 ║│➛*Youtube* : Ismail Kurama
 ║│➛*Link* : https://youtube.com/c/IsmailKurama
 ║╰──────────────────
-║
-╠════════════❋ཻུ۪۪⸙❋ཻུ۪۪⸙
-║
-╠══════════❋ཻུ۪۪⸙❋ཻུ۪۪⸙
-║
-╠════════❋ཻུ۪۪⸙❋ཻུ۪۪⸙
-║
-╠══════❋ཻུ۪۪⸙❋ཻུ۪۪⸙
-║
-╠════❋ཻུ۪۪⸙❋ཻུ۪۪⸙
-║
-╠══❋ཻུ۪۪⸙❋ཻུ۪۪⸙
-║
-╠❋ཻུ۪۪⸙❋ཻུ۪۪⸙
+║⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+
 %readmore`.trimStart(),
   header: '╔════ ◤ *%category* ◢═──',
-  body: '╠ ``` %cmd %islimit %isPremium ``` ',
+  body: '╠ *%cmd* *%islimit* *%isPremium* ',
   footer: '╚═════════──\n',
   after: `
-╭━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
-│ *「 INFO BOT 」*
-│➛*Nama Bot* : BOT
-│➛*Versi* : V0.0
-│➛*Creator* : Muhammaf Ismail
-│➛*Youtube* : Ismail Kurama
-│➛*Link* : https://youtube.com/c/IsmailKurama
-╰┬────────────┈ ⳹
-   │ *「HARGA SEWA 」* 
-   │➛ *1 BULAN* : 5K
-   │➛ *MANEN* : 15K
-   │ *「HARGA SCRIPT 」* 
-   │➛ *HARGA SC INI* : GAK DI JUAL
-   │➛ *CARA BIKIN BOT* : Cek yiutub
-   ╰─────────────┈ ⳹
+  
+  
+  
+    
+     
+      
+       
+        
+         
+          
+          
+           
+           
+            
+             
+              
+               
+               
+                
+                 
+                  
+                  
+                   
+                    
+                     
+                     
+                      
+                       
+                       
+                       
+                       
+                       
+                       
+                        
+                        
+                        
+                        
+                         
+                         
+                          
+                          
+                           
+                           
+                           
+                           
+                           
+                           
    
 ${'```created by ❤️ ismail```'}
 `,
