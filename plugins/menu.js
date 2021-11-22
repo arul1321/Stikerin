@@ -31,28 +31,30 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╔════ ◤ *%me* ◢
-║╔▸
-║╠• *NAMA* : *%name*
-║╠• *EXP*     : *%exp XP*
-║╠• *LIMIT    : *%limit Limit*
-║╠• *LEVEL*  : *%level (%exp / %maxexp)*
-║╠• *Prefik*  : *#*
-║╠• *SUBSCRIBE*
-║╠•  https://youtube.com/c/IsmailKurama
-║╚▸
-╚════ ◤ *ALLMENU* ◢
-
-┏--------------- [ *WAKTU* ]
-│ *TANGGAL*       : *%week %weton**
-│ *TANGGAL*       : *%date*
-│ *Online*        : *%uptime (%muptime)*
-│ *JAM*           : *%time*
-┗-------------------------------------
-
+╔════════════════════
+║  ❉─❉```Ismail Kurama````❉─❉
+╠════════════════════
+║╭──❉ *subscribe* ❉─────
+║│➛*Youtube* : Ismail Kurama
+║│➛*Link* : https://youtube.com/c/IsmailKurama
+║╰──────────────────
+║
+╠════════════❋ཻུ۪۪⸙❋ཻུ۪۪⸙
+║
+╠══════════❋ཻུ۪۪⸙❋ཻུ۪۪⸙
+║
+╠════════❋ཻུ۪۪⸙❋ཻུ۪۪⸙
+║
+╠══════❋ཻུ۪۪⸙❋ཻུ۪۪⸙
+║
+╠════❋ཻུ۪۪⸙❋ཻུ۪۪⸙
+║
+╠══❋ཻུ۪۪⸙❋ཻུ۪۪⸙
+║
+╠❋ཻུ۪۪⸙❋ཻུ۪۪⸙
 %readmore`.trimStart(),
   header: '╔════ ◤ *%category* ◢═──',
-  body: '╠ %cmd %islimit %isPremium',
+  body: '╠ ``` %cmd %islimit %isPremium ``` ',
   footer: '╚═════════──\n',
   after: `
 ╭━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
