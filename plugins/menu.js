@@ -31,22 +31,29 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭─「 %me 」
-│ %ucapan, %name!
-│
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
-│
-│ Uptime: *%uptime (%muptime)*
-│ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
-╰────
+╔════ ◤ *%me* ◢
+║╔▸
+║╠• *NAMA* : *%name*
+║╠• *EXP*     : *%exp XP*
+║╠• *LIMIT    : *%limit Limit*
+║╠• *LEVEL*  : *%level (%exp / %maxexp)*
+║╠• *Prefik*  : *#*
+║╠• *SUBSCRIBE*
+║╠•  https://youtube.com/c/IsmailKurama
+║╚▸
+╚════ ◤ *ALLMENU* ◢
+
+┏--------------- [ *WAKTU* ]
+│ *TANGGAL*       : *%week %weton**
+│ *TANGGAL*       : *%date*
+│ *Online*        : *%uptime (%muptime)*
+│ *JAM*           : *%time*
+┗-------------------------------------
+
 %readmore`.trimStart(),
-  header: '╭─「 %category 」',
-  body: '│ • %cmd %islimit %isPremium',
-  footer: '╰────\n',
+  header: '╔════ ◤ *%category* ◢═──',
+  body: '╠ %cmd %islimit %isPremium',
+  footer: '╚═════════──\n',
   after: `
 *%npmname@^%version*
 ${'```%npmdesc```'}
