@@ -17,13 +17,12 @@ async function handler(m, { conn, args, isROwner }) {
             }
             let txt = '⚠️Warning⚠️\n*Jangan judi karena tidak akan menang, BENERAN!!*\nApakah anda yakin (pikirkan baik-baik) mau melakukan judi (Y/n) (60s Timeout)'
             const buttons = [
-                {buttonId: `id1`, buttonText: {displayText: 'y'}, type: 1},
-                {buttonId: `id2`, buttonText: {displayText: 'n'}, type: 1}
+                {buttonId: `id1`, buttonText: {displayText: 'Y'}, type: 1}, {buttonId: `id2`, buttonText: {displayText: 'N'}, type: 1}
             ]
 
             const buttonMessage = {
                 contentText: txt,
-                footerText: '©games-wabot',
+                footerText: '©ArulBotz',
                 buttons: buttons,
                 headerType: 1
             }

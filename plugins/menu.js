@@ -32,11 +32,11 @@ let tags = {
 const defaultMenu = {
   before: `
 ╔════════════════════
-║  ❉─❉Ismail Kurama❉─❉
+║  ❉─❉ArulGanz❉─❉
 ╠════════════════════
-║╭──❉ *subscribe* ❉─────
-║│➛*Youtube* : Ismail Kurama
-║│➛*Link* : https://youtube.com/c/IsmailKurama
+║╭──❉ *Follow* ❉─────
+║│➛*Instagra* : _daaa_1
+║│➛*Link* : https://instagram.com/_daaa_1
 ║╰──────────────────
 ║⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
