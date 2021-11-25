@@ -2,33 +2,33 @@ global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['https://chat.whatsapp.com/Knn0Veg29he26ZczvDjPqI']
 global.Owner = {
   // use the phone number with the country code, for example Indonesia '62' America '1' etc
-  '6283805279906': { // put your number here
-    name: 'Owner Metro Bot/Creator Ismail Kurama',
+  '6281229859085': { // put your number here
+    name: 'Owner Arul Botz',
     isDev: false, // if true this number will send if bot have bug and developer mode true
     isReport: false, // if true this number will send if user use command /report or /join
     isCreator: true // if true this number will send if user use command /owner or /creator
   },
-  '6283805279906': { // put your number here
+  '6281229859085': { // put your number here
     isDev: true, // if true this number will send if bot have bug and developer mode true
     isReport: true, // if true this number will send if user use command /report or /join
     isCreator: false // if true this number will send if user use command /owner or /creator
   },
-  '6283805279906': { // put your number here
-    name: 'muhamad ismail',
+  '6281229859085': { // put your number here
+    name: 'Arul Ganz',
     isDev: false, // if true this number will send if bot have bug and developer mode true
     isReport: true, // if true this number will send if user use command /report or /join
     isCreator: false // if true this number will send if user use command /owner or /creator
   },
-  '994401139350': {
-    name: 'Ismail Nuramsa',
+  '994406263162': {
+    name: 'ArulGanz',
     isReport: true, // if true this number will send if user use command /report or /join
   },
-  '6283805279906': {
+  '6281229859085': {
     isReport: true
   },
-  '6283805279906': {} // ignore if you don't want anything, like name dll
+  '6281229859085': {} // ignore if you don't want anything, like name dll
 }
-global.mods = ['6283805279906'] // Want some help?
+global.mods = ['6281229859085'] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -53,8 +53,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '🤡 O83805279906'
-global.author = 'YT: Ismail Kurama'
+global.packname = 'Bot Whatsapp'
+global.author = 'By Arul Ganz'
 
 global.multiplier = 100 // The higher, The harder levelup
 
